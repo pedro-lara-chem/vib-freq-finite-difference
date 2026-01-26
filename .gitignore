@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python Boilerplate
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# Generated Geometry Files (Script 1 Output)
+displaced_geometries_for_orca/
+disp_*.xyz
+
+# ORCA Output Files (Input for Script 2)
+# You might want to keep a few examples, but generally ignore the bulk
+orca_outputs/
+*.out
+*.gbw
+*.prop
+*.engrad
+
+# Calculation Outputs (Script 2 Output)
+frequencies_calculated.txt
+vibrations.txt
+frequencies_and_normal_modes_mw.txt
+normal_modes_mw_calculated.npy
+calculated_mode_animations/
+animations_all/
+*.xyz
+
+# Editors
+.vscode/
+.idea/
