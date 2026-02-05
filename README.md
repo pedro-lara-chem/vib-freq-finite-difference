@@ -83,3 +83,6 @@ The analysis script generates the following files:
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+This software was developed by **Pedro Lara Salcedo at Excited States Reactivity Group** at **Universidad Autónoma de Madrid**.  This work was supported by **Síntesis y modelizaciòn de materiales moleculares orgánicos y metalocenos en el estado fundamental y excitado$$** under grant number **$$PID2021-125207NB-C31$$**.
