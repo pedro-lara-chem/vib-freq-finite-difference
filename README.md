@@ -21,7 +21,7 @@ The workflow calculates the **Hessian matrix** (second derivative of energy) by 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/vib-freq-finite-difference.git](https://github.com/YOUR_USERNAME/vib-freq-finite-difference.git)
+   git clone https://github.com/pedro-lara-chem/vib-freq-finite-difference.git
    cd vib-freq-finite-difference
    ```
 2. Install dependencies:
