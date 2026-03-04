@@ -41,7 +41,7 @@ Step 1: Generate Displaced Geometries
 3. Run the script:
 ```bash
 python geometry_creator.py
-´´´
+```
 Output: A directory containing files like disp_000_p.xyz, disp_000_m.xyz, etc.
 Step 2: Run External QM Calculations
 For every XYZ file generated in Step 1, run a single-point gradient calculation.
