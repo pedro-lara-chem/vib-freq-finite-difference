@@ -34,10 +34,10 @@ Step 1: Generate Displaced Geometries
 
 2. Open geometry_creator.py and configure the User-configurable Parameters section at the bottom:
    ```python
-   reference_geometry_file = "input.xyz"
-delta_displacement_angstroms = 0.005  # Step size (Crucial!)
-output_displaced_xyz_dir = "displaced_geometries_for_orca"
-```
+    reference_geometry_file = "input.xyz"
+    delta_displacement_angstroms = 0.005  # Step size (Crucial!)
+    output_displaced_xyz_dir = "displaced_geometries_for_orca"
+    ```
 3. Run the script:
 ```bash
 python geometry_creator.py
@@ -65,7 +65,7 @@ orca_outputs_dir = "orca_outputs"  # Directory containing your .out files
 ```
 3. Run the script:
    ```bash
-   python frequencies_calculator.py
+   python freq_calculator.py
    ```
 ## Configuration
 Both scripts are configured by editing the variables in the if __name__ == "__main__": block at the bottom of the files.
